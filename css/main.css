@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #298eea;
+}
+body * {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 3px;
+}
+
+main {
+  padding-top: 40px;
+}
+
+form {
+  width: 400px;
+  margin: 15px auto;
+  padding: 40px;
+  background-color: white;
+
+}
+
+legend {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+img {
+  height: 35px;
+}
+legend, .pw-link, .login-div, .footer {
+  text-align: center;
+}
+.logo {
+  width: 320px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 30px;
+}
+.email-input, .pw-input, .signup-button {
+  margin:20px 0;
+  padding: 15px;
+  width: 320px;
+  border: 2px solid #e7e7e7;
+  height: 55px;
+  font-size: 18px;
+}
+
+/*.email-label, .pw-label {
+  margin-left: 48.5px;
+}*/
+
+.signup-button {
+  line-height: 50%;
+  color: white;
+  background-color: #15CD72;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 22px;
+  cursor: pointer;
+  border: 0;
+}
+.signup-button:hover {
+  background-color: #0CB863;
+}
+.pw-link {
+  font-size: 13px;
+  color: gray;
+}
+.footer {
+  color: white;
+  font-weight: 600;
+}
+
+.footer * {
+  display: inline;
+  color: white;
+}
+/*p, .login-link {
+  display: inline;
+  color: white;
+  text-align: center;
+}*/
