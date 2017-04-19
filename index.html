@@ -7,22 +7,30 @@
   </head>
   <body>
     <main>
+
       <div class="logo">
         <img src="./img/logo.png" alt="AnalogSea logo">
       </div>
+
       <form class="signup-form" action="/signup/" method="post">
         <!-- <h1>Sign up</h1> -->
         <legend>Sign up</legend>
+
         <label class="email-label" for="email">Email</label>
-        <input class="email-input" type="email" name="email" id="email" placeholder="foo@bar.com" required>
+        <input type="email" class="email-input" name="email" id="email" placeholder="foo@bar.com" required/>
+
         <label class="pw-label" for="password">Password</label>
-        <input class="pw-input"type="password" name="password" id="password" placeholder="1234passw0rd" required>
-        <button class="signup-button" type="button" name="button">Sign up</button>
+        <input class="pw-input"type="password" name="password" id="password" placeholder="1234passw0rd" required/>
+
+        <button class="signup-button" type="submit" name="button">Sign up</button>
+
         <a class="pw-link"href="#">Forgot password?</a>
       </form>
+
       <footer class="footer">
         <p>Already have an account? <a class="login-link"href="/login">Log in</a></p>
       </footer>
+
     </main>
   </body>
 </html>
